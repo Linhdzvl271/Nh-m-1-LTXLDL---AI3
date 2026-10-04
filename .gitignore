@@ -1,30 +1,23 @@
-﻿# Python
+# Data
+data/raw/
+data/processed/
+
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
 .venv/
 venv/
-env/
-*.egg-info/
-.pytest_cache/
 
-# Dữ liệu thô (KHÔNG commit theo yêu cầu)
-data/raw/*
-!data/raw/.gitkeep
-
-# Dữ liệu lớn
-*.zip
-*.tar.gz
-*.parquet
-
-# Biến môi trường & khoá bí mật
-.env
-*.key
-*secret*
-
-# OS / IDE
+# macOS
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
-.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Generated outputs
+outputs/

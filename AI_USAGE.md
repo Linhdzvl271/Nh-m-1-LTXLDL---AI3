@@ -1,15 +1,26 @@
-﻿# Báo Cáo Khai Báo Sử Dụng AI (AI Usage Declaration)
+# AI Usage
 
-## 1. Công cụ AI đã sử dụng
-- Tên công cụ: ChatGPT / Google Gemini / GitHub Copilot
-- Phiên bản: ...
+## 1. Purpose
 
-## 2. Mục đích sử dụng
-- [ ] Gợi ý khung mã nguồn (Boilerplate)
-- [ ] Tối ưu hóa hàm xử lý dữ liệu / thuật toán
-- [ ] Hỗ trợ viết regex hoặc làm sạch dữ liệu
-- [ ] Soạn thảo tài liệu và nhận xét mã nguồn
+LLM được sử dụng để phân tích và phân loại nội dung Airbnb reviews.
 
-## 3. Chi tiết các đoạn mã có đóng góp của AI
-- `src/...`: Mô tả phần AI hỗ trợ.
-- Mọi kết quả từ AI đều đã được nhóm kiểm thử, thẩm định và đối chứng thủ công.
+## 2. Model
+
+TODO
+
+## 3. Prompt
+
+TODO
+
+## 4. Human Evaluation
+
+Nhóm sẽ tạo human-labeled dataset với ít nhất 100 reviews.
+
+## 5. Evaluation
+
+So sánh kết quả LLM với human labels và baseline
+bằng Accuracy và F1-score.
+
+## 6. Cost
+
+TODO
