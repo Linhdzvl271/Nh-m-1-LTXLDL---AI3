@@ -1,0 +1,12 @@
+﻿city_name: "hanoi"
+data_root: "data/raw"
+snapshots:
+  - "2024-01-01"
+  - "2024-02-01"
+qa_params:
+  min_length: 5
+kpi_params:
+  metric: "accuracy"
+llm_params:
+  model: "gpt-4o-mini"
+  temperature: 0.2
